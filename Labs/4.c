@@ -25,5 +25,5 @@ int main(void){
     perimetro=a+b+c;
     semiperimetro=(a+b+c)/2;
     area=sqrt(s*(s-a)*(s-b)*(s-c))
-    printf("El triangulo es Escaleno");
+    printf("El triangulo es ");
 }
