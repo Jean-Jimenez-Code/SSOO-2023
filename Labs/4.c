@@ -2,15 +2,14 @@
 
 int main(void){
     // Escribe un algoritmo en C que genere la suma de los primero 100 números impares
-    int contador=0,b;
-    while (contador==100)
-    {
-        if (contador%2==1)
-        {
-            b+=contador;
-        }
-        contador++;
-        printf("Numero %d", contador);
-    }
-    printf("Resultado %d", b);
+        printf("Ingresa 4 numeros decimales, punto flotante\n");
+    float a = 0, b = 0, c=0, d=0, promedio;
+    scanf("%f", &a);
+    scanf("%f", &b);
+    scanf("%f", &c);
+    scanf("%f", &d);
+
+    promedio=(a+b+c+d)/4;
+    printf("El Promedio es %f", promedio);
+
 }
